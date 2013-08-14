@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Corexapod Controller' target in the 'Corexapod Controller' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
