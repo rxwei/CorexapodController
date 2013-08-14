@@ -13,6 +13,16 @@
 		8B95891E17BB261000BBECD9 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8B95891C17BB261000BBECD9 /* Credits.rtf */; };
 		8B95892117BB261000BBECD9 /* HEXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B95892017BB261000BBECD9 /* HEXAppDelegate.m */; };
 		8B95892417BB261000BBECD9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B95892217BB261000BBECD9 /* MainMenu.xib */; };
+		8B95892C17BB265100BBECD9 /* HEXAppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B95892B17BB265100BBECD9 /* HEXAppController.m */; };
+		8B95892F17BB26BD00BBECD9 /* HEXCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B95892E17BB26BD00BBECD9 /* HEXCoordinate.m */; };
+		8B95893217BB26F100BBECD9 /* HEXLeg.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B95893117BB26F100BBECD9 /* HEXLeg.m */; };
+		8B95893517BB272200BBECD9 /* HEXRobot.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B95893417BB272200BBECD9 /* HEXRobot.m */; };
+		8B95893817BB27BA00BBECD9 /* HEXSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B95893717BB27BA00BBECD9 /* HEXSensor.m */; };
+		8B95893B17BB27DF00BBECD9 /* HEXServo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B95893A17BB27DF00BBECD9 /* HEXServo.m */; };
+		8B95894817BB2B7E00BBECD9 /* ORSSerialPort.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B95894517BB2B7E00BBECD9 /* ORSSerialPort.m */; };
+		8B95894917BB2B7E00BBECD9 /* ORSSerialPortManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B95894717BB2B7E00BBECD9 /* ORSSerialPortManager.m */; };
+		8B95894B17BB2B9B00BBECD9 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B95894A17BB2B9B00BBECD9 /* IOKit.framework */; };
+		8B95894D17BB326B00BBECD9 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 8B95894C17BB326B00BBECD9 /* icon.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +39,24 @@
 		8B95891F17BB261000BBECD9 /* HEXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HEXAppDelegate.h; sourceTree = "<group>"; };
 		8B95892017BB261000BBECD9 /* HEXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HEXAppDelegate.m; sourceTree = "<group>"; };
 		8B95892317BB261000BBECD9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8B95892A17BB265100BBECD9 /* HEXAppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEXAppController.h; sourceTree = "<group>"; };
+		8B95892B17BB265100BBECD9 /* HEXAppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEXAppController.m; sourceTree = "<group>"; };
+		8B95892D17BB26BD00BBECD9 /* HEXCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEXCoordinate.h; sourceTree = "<group>"; };
+		8B95892E17BB26BD00BBECD9 /* HEXCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEXCoordinate.m; sourceTree = "<group>"; };
+		8B95893017BB26F100BBECD9 /* HEXLeg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEXLeg.h; sourceTree = "<group>"; };
+		8B95893117BB26F100BBECD9 /* HEXLeg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEXLeg.m; sourceTree = "<group>"; };
+		8B95893317BB272200BBECD9 /* HEXRobot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEXRobot.h; sourceTree = "<group>"; };
+		8B95893417BB272200BBECD9 /* HEXRobot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEXRobot.m; sourceTree = "<group>"; };
+		8B95893617BB27BA00BBECD9 /* HEXSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEXSensor.h; sourceTree = "<group>"; };
+		8B95893717BB27BA00BBECD9 /* HEXSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEXSensor.m; sourceTree = "<group>"; };
+		8B95893917BB27DF00BBECD9 /* HEXServo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HEXServo.h; sourceTree = "<group>"; };
+		8B95893A17BB27DF00BBECD9 /* HEXServo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HEXServo.m; sourceTree = "<group>"; };
+		8B95894417BB2B7E00BBECD9 /* ORSSerialPort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPort.h; sourceTree = "<group>"; };
+		8B95894517BB2B7E00BBECD9 /* ORSSerialPort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPort.m; sourceTree = "<group>"; };
+		8B95894617BB2B7E00BBECD9 /* ORSSerialPortManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ORSSerialPortManager.h; sourceTree = "<group>"; };
+		8B95894717BB2B7E00BBECD9 /* ORSSerialPortManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ORSSerialPortManager.m; sourceTree = "<group>"; };
+		8B95894A17BB2B9B00BBECD9 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		8B95894C17BB326B00BBECD9 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B95894B17BB2B9B00BBECD9 /* IOKit.framework in Frameworks */,
 				8B95890E17BB261000BBECD9 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +75,7 @@
 		8B95890117BB261000BBECD9 = {
 			isa = PBXGroup;
 			children = (
+				8B95894C17BB326B00BBECD9 /* icon.icns */,
 				8B95891317BB261000BBECD9 /* Corexapod Controller */,
 				8B95890C17BB261000BBECD9 /* Frameworks */,
 				8B95890B17BB261000BBECD9 /* Products */,
@@ -63,6 +93,7 @@
 		8B95890C17BB261000BBECD9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8B95894A17BB2B9B00BBECD9 /* IOKit.framework */,
 				8B95890D17BB261000BBECD9 /* Cocoa.framework */,
 				8B95890F17BB261000BBECD9 /* Other Frameworks */,
 			);
@@ -84,7 +115,20 @@
 			children = (
 				8B95891F17BB261000BBECD9 /* HEXAppDelegate.h */,
 				8B95892017BB261000BBECD9 /* HEXAppDelegate.m */,
+				8B95892A17BB265100BBECD9 /* HEXAppController.h */,
+				8B95892B17BB265100BBECD9 /* HEXAppController.m */,
+				8B95892D17BB26BD00BBECD9 /* HEXCoordinate.h */,
+				8B95892E17BB26BD00BBECD9 /* HEXCoordinate.m */,
+				8B95893017BB26F100BBECD9 /* HEXLeg.h */,
+				8B95893117BB26F100BBECD9 /* HEXLeg.m */,
+				8B95893317BB272200BBECD9 /* HEXRobot.h */,
+				8B95893417BB272200BBECD9 /* HEXRobot.m */,
+				8B95893617BB27BA00BBECD9 /* HEXSensor.h */,
+				8B95893717BB27BA00BBECD9 /* HEXSensor.m */,
+				8B95893917BB27DF00BBECD9 /* HEXServo.h */,
+				8B95893A17BB27DF00BBECD9 /* HEXServo.m */,
 				8B95892217BB261000BBECD9 /* MainMenu.xib */,
+				8B95894317BB2B7E00BBECD9 /* ORSSerialPort */,
 				8B95891417BB261000BBECD9 /* Supporting Files */,
 			);
 			path = "Corexapod Controller";
@@ -100,6 +144,17 @@
 				8B95891C17BB261000BBECD9 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B95894317BB2B7E00BBECD9 /* ORSSerialPort */ = {
+			isa = PBXGroup;
+			children = (
+				8B95894417BB2B7E00BBECD9 /* ORSSerialPort.h */,
+				8B95894517BB2B7E00BBECD9 /* ORSSerialPort.m */,
+				8B95894617BB2B7E00BBECD9 /* ORSSerialPortManager.h */,
+				8B95894717BB2B7E00BBECD9 /* ORSSerialPortManager.m */,
+			);
+			path = ORSSerialPort;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +212,7 @@
 				8B95891817BB261000BBECD9 /* InfoPlist.strings in Resources */,
 				8B95891E17BB261000BBECD9 /* Credits.rtf in Resources */,
 				8B95892417BB261000BBECD9 /* MainMenu.xib in Resources */,
+				8B95894D17BB326B00BBECD9 /* icon.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +225,14 @@
 			files = (
 				8B95891A17BB261000BBECD9 /* main.m in Sources */,
 				8B95892117BB261000BBECD9 /* HEXAppDelegate.m in Sources */,
+				8B95892C17BB265100BBECD9 /* HEXAppController.m in Sources */,
+				8B95892F17BB26BD00BBECD9 /* HEXCoordinate.m in Sources */,
+				8B95893217BB26F100BBECD9 /* HEXLeg.m in Sources */,
+				8B95893517BB272200BBECD9 /* HEXRobot.m in Sources */,
+				8B95893817BB27BA00BBECD9 /* HEXSensor.m in Sources */,
+				8B95893B17BB27DF00BBECD9 /* HEXServo.m in Sources */,
+				8B95894817BB2B7E00BBECD9 /* ORSSerialPort.m in Sources */,
+				8B95894917BB2B7E00BBECD9 /* ORSSerialPortManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
